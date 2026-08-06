@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Project documentation
+
 ## [0.1.0] - Repository Initialization
 
 ### Added
