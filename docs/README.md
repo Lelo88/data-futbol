@@ -1,12 +1,25 @@
-# Documentation
+Documentation
 
-This folder contains all project documentation.
+Overview
+- Project Vision
+- Project Status
+- Project History
 
-Documentation will be created before implementation begins.
+Domain
+- Domain Model
+- Statistical Questions
+- Glossary
 
-Current status:
+Architecture
+- Architecture
+- Stack Decision
+- Quality Standards
+- Development Workflow
 
-- Project Vision ⏳
-- Domain Model ⏳
-- Architecture ⏳
-- Roadmap ⏳
+Planning
+- Roadmap
+- Decision Log
+
+Implementation
+- Specifications
+- Checklists
