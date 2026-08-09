@@ -20,6 +20,8 @@ Implementation has not started yet.
 
 The project is currently focused on defining the product vision, domain model, architecture, and implementation roadmap before writing production code.
 
+Current focus: documentation-first work centered on the domain model, statistical questions, and glossary.
+
 ---
 
 # 🎯 Goals
