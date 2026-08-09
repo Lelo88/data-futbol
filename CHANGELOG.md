@@ -8,6 +8,7 @@
 - Project restart and direction change toward historical football analytics
 - Data Definition for required historical football data and MVP betting markets
 - Source Research for candidate external data sources
+- Source Mapping for required data elements and candidate source alignment
 
 ### Changed
 

@@ -10,9 +10,9 @@ Source Mapping
 
 Status:
 
-⏳ Pending
+✅ Completed
 
-Source Research is complete. Candidate external data sources were researched and documented for historical coverage, data capabilities, betting markets, odds availability, formats, pricing, usage limits, licensing considerations, and integration considerations. Several capabilities remain Unknown or Partially verified, and no definitive provider has been selected.
+Source Mapping is complete. Required data elements were mapped to candidate external sources using the evidence already documented in the data definition and source research phases. Several capabilities remain Unknown or Partially verified, and no definitive provider has been selected.
 
 ---
 
@@ -123,7 +123,7 @@ Pipeline-based
 
 # Documentation Status
 
-Current focus: source mapping after the completed data definition and source research phases.
+Current focus: provider selection after the completed data definition, source research, and source mapping phases.
 
 | Phase | Status |
 |-------|--------|
@@ -131,7 +131,7 @@ Current focus: source mapping after the completed data definition and source res
 | Domain Definition | Completed |
 | Data Definition | Completed |
 | Source Research | Completed |
-| Source Mapping | Pending |
+| Source Mapping | Completed |
 | Provider Selection | Pending |
 | Data Model | Pending |
 | Ingestion | Pending |
@@ -182,6 +182,7 @@ Complete all project documentation before writing production code.
 - Domain Definition was completed.
 - Data Definition was completed.
 - Source Research was completed.
+- Source Mapping was completed.
 - Go was discarded as the primary language.
 - Python became the preferred language.
 - The project shifted from backend-oriented to data analytics oriented.
