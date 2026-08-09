@@ -6,11 +6,11 @@
 
 # Current Phase
 
-Source Research
+Source Mapping
 
 Status:
 
-✅ Completed
+⏳ Pending
 
 Source Research is complete. Candidate external data sources were researched and documented for historical coverage, data capabilities, betting markets, odds availability, formats, pricing, usage limits, licensing considerations, and integration considerations. Several capabilities remain Unknown or Partially verified, and no definitive provider has been selected.
 
@@ -179,7 +179,7 @@ Complete all project documentation before writing production code.
 
 - The project was restarted from scratch.
 - Project Definition was completed.
-- Domain Definition is currently being finalized.
+- Domain Definition was completed.
 - Data Definition was completed.
 - Source Research was completed.
 - Go was discarded as the primary language.
