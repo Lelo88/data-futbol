@@ -121,17 +121,19 @@ Pipeline-based
 
 # Documentation Status
 
+Current focus: documentation-first work centered on the domain model, statistical questions, and glossary.
+
 | Document | Status |
 |----------|--------|
 | README | ⏳ |
 | Project Vision | ⏳ |
-| Domain | Pending |
-| Statistical Questions | Pending |
+| Domain | ⏳ In progress |
+| Statistical Questions | ⏳ In progress |
 | Data Sources | Pending |
 | Architecture | Pending |
 | Roadmap | Pending |
 | Decision Log | Pending |
-| Glossary | Pending |
+| Glossary | ⏳ In progress |
 
 ---
 
@@ -195,4 +197,4 @@ Complete all project documentation before writing production code.
 
 # Last Updated
 
-2026-08-05
+2026-08-08

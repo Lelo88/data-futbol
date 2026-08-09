@@ -1,5 +1,7 @@
 Documentation
 
+Current focus: documentation-first work centered on the domain model, statistical questions, and glossary.
+
 Overview
 - Project Vision
 - Project Status

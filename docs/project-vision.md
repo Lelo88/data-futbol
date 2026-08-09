@@ -10,6 +10,8 @@
 
 Football Analytics is a personal data analytics platform focused on collecting, organizing, analyzing, and presenting historical football statistics.
 
+The project is currently in a documentation-first phase centered on the domain model, statistical questions, and glossary.
+
 The project is designed to help users understand team performance, discover statistical patterns, and compare historical evidence against bookmaker odds.
 
 Rather than predicting outcomes, the platform aims to provide objective statistical information that assists human decision-making.
