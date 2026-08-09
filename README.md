@@ -14,13 +14,13 @@ The platform is designed to support informed decision-making through historical 
 
 Current phase:
 
-> Documentation & Project Definition
+> Source Research completed
 
 Implementation has not started yet.
 
-The project is currently focused on defining the product vision, domain model, architecture, and implementation roadmap before writing production code.
+The project has completed Data Definition and Source Research. The next phases are Source Mapping and Provider Selection.
 
-Current focus: documentation-first work centered on the domain model, statistical questions, and glossary.
+Current focus: documentation-first work centered on source mapping after the completed data definition and source research phases.
 
 ---
 
@@ -63,15 +63,21 @@ Current documentation includes:
 - Project Vision
 - Project Status
 - Project History
+- Data Definition
+- Source Research
+- Domain Model
+- Statistical Questions
+- Glossary
 
 Additional documentation will include:
 
-- Domain Model
+- Source Mapping
+- Provider Selection
+- Data Model
+- Ingestion
+- Statistical Engine
+- Insights Engine
 - Architecture
-- Data Sources
-- Statistical Questions
-- Roadmap
-- Decision Log
 - Development Workflow
 - Quality Standards
 
@@ -105,14 +111,14 @@ The project will be developed incrementally following these phases:
 
 1. Project Definition
 2. Domain Definition
-3. Architecture Design
-4. Database
-5. Data Ingestion
-6. Data Normalization
-7. Statistics Engine
-8. Decision Engine
-9. Visualization
-10. MVP Release
+3. Data Definition
+4. Source Research
+5. Source Mapping
+6. Provider Selection
+7. Data Model
+8. Ingestion
+9. Statistical Engine
+10. Insights Engine
 
 ---
 
