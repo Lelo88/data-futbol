@@ -341,8 +341,8 @@ This document defines data requirements, but it does not define:
 
 Those decisions belong to subsequent phases.
 
-Status: Draft
+Status: Completed
 
 Phase: Data Definition
 
-Next step: Source Research and Source Mapping
+Next step: Source Research
