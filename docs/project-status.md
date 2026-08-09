@@ -6,13 +6,13 @@
 
 # Current Phase
 
-Source Mapping
+Provider Selection
 
 Status:
 
 ✅ Completed
 
-Source Mapping is complete. Required data elements were mapped to candidate external sources using the evidence already documented in the data definition and source research phases. Several capabilities remain Unknown or Partially verified, and no definitive provider has been selected.
+Provider Selection documentation is complete. Required coverage validation, licensing research, and the Final Provider Responsibility Matrix have been recorded in `docs/03-data/provider-selection.md`. Pre-implementation clarifications (obtain UK Odds API Terms of Service; confirm TheStatsAPI storage/attribution conditions) are recorded and must be resolved before implementation.
 
 ---
 
@@ -123,7 +123,7 @@ Pipeline-based
 
 # Documentation Status
 
-Current focus: provider selection after the completed data definition, source research, and source mapping phases.
+Current focus: documentation synchronization after Provider Selection; next planned phase is Data Model.
 
 | Phase | Status |
 |-------|--------|
@@ -132,7 +132,7 @@ Current focus: provider selection after the completed data definition, source re
 | Data Definition | Completed |
 | Source Research | Completed |
 | Source Mapping | Completed |
-| Provider Selection | Pending |
+| Provider Selection | Completed |
 | Data Model | Pending |
 | Ingestion | Pending |
 | Statistical Engine | Pending |
