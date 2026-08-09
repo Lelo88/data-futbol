@@ -126,3 +126,12 @@
 - Consequences:
 	- BTTS is not included in the initial MVP scope.
 	- BTTS may be considered in a future version.
+
+### Provider Selection documented (conditional)
+
+- Date: 2026-08-09
+- Decision: Provider Selection documentation was completed and a Final Provider Responsibility Matrix was recorded in `docs/03-data/provider-selection.md`. The preferred providers documented are TheStatsAPI (statistics and match data) and UK Odds API (historical odds), subject to explicit licensing confirmations.
+- Reason: Coverage validation and commercial/licensing research supported these providers for the MVP competitions and markets, but UK Odds API published Terms of Service were not found and TheStatsAPI storage/attribution clarifications require confirmation.
+- Consequences:
+	- Implementation must not proceed until providers confirm persistent storage, attribution, and cross-provider combination allowances.
+	- Next steps: contact UK Odds API for published Terms of Service and confirm historical snapshots access; contact TheStatsAPI at support@thestatsapi.com to confirm persistent archive and attribution requirements.
