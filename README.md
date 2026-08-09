@@ -14,13 +14,13 @@ The platform is designed to support informed decision-making through historical 
 
 Current phase:
 
-> Source Research completed
+> Source Mapping completed
 
 Implementation has not started yet.
 
-The project has completed Data Definition and Source Research. The next phases are Source Mapping and Provider Selection.
+The project has completed Data Definition, Source Research, and Source Mapping. The next phase is Provider Selection.
 
-Current focus: documentation-first work centered on source mapping after the completed data definition and source research phases.
+Current focus: documentation-first work centered on provider selection after the completed data definition, source research, and source mapping phases.
 
 ---
 
@@ -65,13 +65,13 @@ Current documentation includes:
 - Project History
 - Data Definition
 - Source Research
+- Source Mapping
 - Domain Model
 - Statistical Questions
 - Glossary
 
 Additional documentation will include:
 
-- Source Mapping
 - Provider Selection
 - Data Model
 - Ingestion
