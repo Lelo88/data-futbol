@@ -6,11 +6,11 @@
 
 # Current Phase
 
-Project Definition
+Domain Definition
 
 Status:
 
-🟡 Documentation in progress
+🟡 Finalizing domain documentation
 
 ---
 
@@ -121,19 +121,19 @@ Pipeline-based
 
 # Documentation Status
 
-Current focus: documentation-first work centered on the domain model, statistical questions, and glossary.
+Current focus: finalizing the domain definition through the domain model, statistical questions, and glossary.
 
 | Document | Status |
 |----------|--------|
 | README | ⏳ |
 | Project Vision | ⏳ |
-| Domain | ⏳ In progress |
-| Statistical Questions | ⏳ In progress |
+| Domain | ⏳ Finalizing |
+| Statistical Questions | ⏳ Finalizing |
 | Data Sources | Pending |
 | Architecture | Pending |
 | Roadmap | Pending |
 | Decision Log | Pending |
-| Glossary | ⏳ In progress |
+| Glossary | ⏳ Finalizing |
 
 ---
 
@@ -158,7 +158,7 @@ Complete all project documentation before writing production code.
 # Current Roadmap
 
 1. Project Vision
-2. Domain
+2. Domain Definition
 3. Statistical Questions
 4. Data Sources
 5. Stack Decision
@@ -175,6 +175,8 @@ Complete all project documentation before writing production code.
 ## 2026-08
 
 - The project was restarted from scratch.
+- Project Definition was completed.
+- Domain Definition is currently being finalized.
 - Go was discarded as the primary language.
 - Python became the preferred language.
 - The project shifted from backend-oriented to data analytics oriented.
