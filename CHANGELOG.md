@@ -9,7 +9,7 @@
 - Data Definition for required historical football data and MVP betting markets
 - Source Research for candidate external data sources
 - Source Mapping for required data elements and candidate source alignment
- - Provider Selection documentation: finalized provider-selection.md with MVP competition scope, coverage matrices, provider responsibility matrix, and licensing validations (pre-implementation clarifications recorded).
+- Provider Selection documentation: finalized provider-selection.md with MVP competition scope, coverage matrices, provider responsibility matrix, and licensing validations (pre-implementation clarifications recorded). - PostgreSQL 16 data model implementation with Alembic migration, SQLAlchemy persistence metadata, Docker workflow, and integration tests.
 
 ### Changed
 

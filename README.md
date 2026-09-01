@@ -14,13 +14,9 @@ The platform is designed to support informed decision-making through historical 
 
 Current phase:
 
-> Provider Selection completed
+> Data Model implementation completed
 
-Implementation has not started yet.
-
-The project has completed Data Definition, Source Research, Source Mapping and Provider Selection. The next phase is Data Model.
-
-Current focus: documentation-first work for Provider Selection is complete; next focus is Data Model (pending provider licensing confirmations).
+The PostgreSQL schema, Alembic migration, SQLAlchemy persistence metadata, and database integration tests are now available. Provider integration and ingestion remain out of scope until licensing clarifications are resolved.
 
 ---
 
@@ -126,12 +122,25 @@ The project will be developed incrementally following these phases:
 
 The current technical direction includes:
 
-- Python
-- PostgreSQL
+- Python 3.12+
+- PostgreSQL 16
 - SQLAlchemy
 - Alembic
 - Pandas
 - Docker
+
+## Database setup
+
+Copy `.env.example` to `.env` (or export `DATABASE_URL`), then start PostgreSQL and apply the migration:
+
+```sh
+docker compose up -d postgres
+python -m pip install -e '.[dev]'
+alembic upgrade head
+pytest
+```
+
+The initial migration seeds the supported providers (TheStatsAPI and UK Odds API), MVP competitions, and the five approved MVP market definitions. It does not call provider APIs or ingest provider data.
 
 Additional technologies will be evaluated as the project evolves.
 
