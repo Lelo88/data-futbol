@@ -6,13 +6,13 @@
 
 # Current Phase
 
-Provider Selection
+Data Model Implementation
 
 Status:
 
 ✅ Completed
 
-Provider Selection documentation is complete. Required coverage validation, licensing research, and the Final Provider Responsibility Matrix have been recorded in `docs/03-data/provider-selection.md`. Pre-implementation clarifications (obtain UK Odds API Terms of Service; confirm TheStatsAPI storage/attribution conditions) are recorded and must be resolved before implementation.
+The approved data model has been implemented as a PostgreSQL 16 Alembic migration with SQLAlchemy persistence metadata and integration tests. Provider integration and ingestion remain blocked on the licensing clarifications recorded in `docs/03-data/provider-selection.md`.
 
 ---
 
@@ -123,7 +123,7 @@ Pipeline-based
 
 # Documentation Status
 
-Current focus: documentation synchronization after Provider Selection; next planned phase is Data Model.
+Current focus: documentation synchronization after Data Model Implementation; next planned phase is Ingestion.
 
 | Phase | Status |
 |-------|--------|
@@ -133,7 +133,7 @@ Current focus: documentation synchronization after Provider Selection; next plan
 | Source Research | Completed |
 | Source Mapping | Completed |
 | Provider Selection | Completed |
-| Data Model | Pending |
+| Data Model | Completed |
 | Ingestion | Pending |
 | Statistical Engine | Pending |
 | Insights Engine | Pending |
@@ -148,13 +148,13 @@ Not started.
 
 # Implementation
 
-Not started.
+Data Model persistence layer completed: PostgreSQL schema, Alembic migration, Docker PostgreSQL 16 workflow, SQLAlchemy metadata, and integration tests.
 
 ---
 
 # Next Milestone
 
-Complete all project documentation before writing production code.
+Implement ingestion after the required provider licensing and data-availability clarifications are resolved.
 
 ---
 
@@ -205,4 +205,4 @@ Complete all project documentation before writing production code.
 
 # Last Updated
 
-2026-08-09
+2026-08-31

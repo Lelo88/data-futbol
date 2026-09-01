@@ -734,6 +734,14 @@ This Data Model provides a normalized relational structure for PostgreSQL capabl
 
 The model respects all decisions from Data Definition, Provider Selection, and Source Mapping phases while remaining implementation-ready for the next phase.
 
-**STATUS: READY FOR IMPLEMENTATION**
+**STATUS: IMPLEMENTED**
 
-The logical design is complete and consistent. The next phase will translate this model into PostgreSQL migrations, table definitions, and constraints.
+The logical design has been translated into the initial PostgreSQL implementation, including migrations, table definitions, constraints, reference data, and integration tests.
+
+## 16. Implementation Notes
+
+The initial PostgreSQL implementation uses `TIMESTAMPTZ` for all temporal values and `NUMERIC(8,3)` for decimal odds; `Selection.line_value` uses `NUMERIC(6,2)`. These types preserve exact decimal values and UTC-aware timestamps.
+
+`MatchEvent.player_id` is persisted as a nullable identifier without a foreign key in the MVP. The approved model deliberately excludes a Player entity, so a foreign key cannot be created without introducing an out-of-scope table. A later Player implementation must add the referential constraint through a dedicated migration.
+
+The generic `ProviderMapping.internal_id` remains intentionally without a polymorphic foreign key. Its entity-type/internal-id consistency must be validated in the application/ingestion layer, as specified in this document.
