@@ -175,19 +175,25 @@ For odds data, the conceptual requirements are:
 - odds type
 - timestamp when available
 
-Opening odds are the preferred odds reference for the project.
+**Historical Odds Requirement (MANDATORY):**
+
+The system must capture and store historical odds for all MVP markets with temporal and semantic context (match, bookmaker, market, selection, timestamp).
+
+**Opening and Closing Odds (OPTIONAL / DESIRABLE):**
+
+Opening odds and closing odds are optional and desirable when reliably provided and explicitly labeled by the provider. They are NOT mandatory MVP requirements.
 
 The conceptual meaning of odds type must distinguish between:
 
-- opening odds
-- closing odds
-- intermediate/snapshot odds
-
-The MVP uses opening odds only. Closing odds and intermediate/snapshot odds are not required by the MVP.
+- opening odds: the explicitly identified opening price for a bookmaker and market (when the provider labels it as such)
+- closing odds: the explicitly identified last pre-match price (when the provider labels it as such)
+- intermediate/snapshot odds: historical odds captures without explicit opening/closing semantics
 
 Opening odds may be provided per bookmaker or as an aggregated value. These concepts are not equivalent and must not be treated as interchangeable.
 
 The project must not assume that every source provides opening odds with the same semantics. Exact source meaning and coverage must be established during source research.
+
+**CRITICAL RULE:** Do NOT automatically treat the first captured odds snapshot as an opening price unless the provider explicitly documents that behavior. This violates data integrity and introduces analysis errors.
 
 ## 4. Derived Data
 
