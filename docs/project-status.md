@@ -6,13 +6,13 @@
 
 # Current Phase
 
-Data Model Implementation
+Provider Integration — Authenticated Contract Closure
 
 Status:
 
-✅ Completed
+⛔ Blocked pending provider evidence
 
-The approved data model has been implemented as a PostgreSQL 16 Alembic migration with SQLAlchemy persistence metadata and integration tests. Provider integration and ingestion remain blocked on the licensing clarifications recorded in `docs/03-data/provider-selection.md`.
+The approved data model has been implemented as a PostgreSQL 16 Alembic migration with SQLAlchemy persistence metadata and integration tests. The final official evidence audit remains blocked because no canonical authenticated schema, provider evidence for teams/events/odds, or written licensing clarification was available. Details are recorded in `docs/04-providers/the-stats-api-integration.md`.
 
 ---
 
@@ -123,7 +123,7 @@ Pipeline-based
 
 # Documentation Status
 
-Current focus: documentation synchronization after Data Model Implementation; next planned phase is Ingestion.
+Current focus: obtain the provider's canonical authenticated contract and written licensing clarifications. No TheStatsAPI client is authorized until those blockers are resolved.
 
 | Phase | Status |
 |-------|--------|
@@ -134,6 +134,9 @@ Current focus: documentation synchronization after Data Model Implementation; ne
 | Source Mapping | Completed |
 | Provider Selection | Completed |
 | Data Model | Completed |
+| Provider Integration — Technical Design | Completed |
+| Provider Integration — Official Contract Validation | Completed with blockers |
+| Provider Integration — Authenticated Contract Closure | Blocked after final official evidence audit |
 | Ingestion | Pending |
 | Statistical Engine | Pending |
 | Insights Engine | Pending |
@@ -154,7 +157,7 @@ Data Model persistence layer completed: PostgreSQL schema, Alembic migration, Do
 
 # Next Milestone
 
-Implement ingestion after the required provider licensing and data-availability clarifications are resolved.
+Obtain canonical authenticated TheStatsAPI schemas, official sanitized examples, and written licensing clarification; then re-review contract readiness before approving any read-only client. The final public audit remains `BLOCKED BY PROVIDER CONTRACT`.
 
 ---
 
@@ -205,4 +208,4 @@ Implement ingestion after the required provider licensing and data-availability 
 
 # Last Updated
 
-2026-08-31
+2026-09-02
