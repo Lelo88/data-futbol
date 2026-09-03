@@ -14,9 +14,9 @@ The platform is designed to support informed decision-making through historical 
 
 Current phase:
 
-> Data Model implementation completed
+> Provider Integration technical design completed
 
-The PostgreSQL schema, Alembic migration, SQLAlchemy persistence metadata, and database integration tests are now available. Provider integration and ingestion remain out of scope until licensing clarifications are resolved.
+The PostgreSQL schema, Alembic migration, SQLAlchemy persistence metadata, and database integration tests are available. The TheStatsAPI integration contract is documented; provider HTTP implementation and ingestion remain pending verification of the official API contract and licensing clarifications.
 
 ---
 
@@ -63,6 +63,7 @@ Current documentation includes:
 - Source Research
 - Source Mapping
 - Provider Selection
+- TheStatsAPI Integration Contract
 - Domain Model
 - Statistical Questions
 - Glossary
